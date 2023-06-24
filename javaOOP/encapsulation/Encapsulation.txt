@@ -1,0 +1,38 @@
+Encapsulation 
+
+Encapsulation is one of the fundamental principles of Object-Oriented Programming (OOP) and is implemented in Java through the use of classes, access modifiers, and getter and setter methods. It involves bundling data (attributes) and methods (behavior) together within a class and controlling access to the internal state of an object. Here’s an overview of encapsulation in Java:
+
+Class Definition:
+Encapsulation starts with defining a class that represents a specific entity or concept.
+The class encapsulates related data and methods within its scope.
+Access Modifiers:
+Java provides access modifiers to control the visibility and accessibility of class members (attributes and methods).
+The main access modifiers in Java are:
+public: Accessible from anywhere.
+private: Accessible only within the class.
+protected: Accessible within the class and its subclasses.
+Default (no modifier): Accessible within the same package.
+Private Data Members:
+Encapsulation encourages the use of private access modifiers for data members (attributes) of a class.
+Private data members can only be accessed or modified within the class itself.
+This hides the internal state of an object and protects it from direct external manipulation.
+Getter and Setter Methods:
+Getter and setter methods (also known as accessor and mutator methods) are used to access and modify the private data members of a class.
+Getter methods retrieve the value of an attribute, while setter methods modify the value.
+By using these methods, we can control how the internal state is accessed and ensure validation or other logic is applied.
+Example:
+
+public class Person {
+  private String name; // private data member
+
+  public String getName() {
+    return name; // getter method
+  }
+
+  public void setName(String newName) {
+    name = newName; // setter method
+  }
+}
+In the example above, the name attribute is declared as private, preventing direct access from outside the Person class. Instead, the getName() method provides read access to the name attribute, and the setName() method allows modification of the value. These methods enable encapsulation by controlling how the internal state is accessed and modified.
+
+Encapsulation in Java ensures data integrity, enhances code maintainability, and promotes code reusability. It allows for better control over the interaction with objects and protects them from unintended modifications.
