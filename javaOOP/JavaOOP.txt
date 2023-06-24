@@ -1,0 +1,33 @@
+About Lesson
+Object-Oriented Programming (OOP) is a programming paradigm that organizes code around objects, which are instances of classes. OOP focuses on modeling real-world entities as objects and providing mechanisms to interact with and manipulate these objects. Here’s an overview of OOP:
+
+1. Objects and Classes:
+– Objects are instances of classes that represent specific entities or concepts.
+– Classes define the structure and behavior of objects. They encapsulate data (attributes) and functionality (methods) related to a specific entity.
+
+2. Encapsulation:
+– Encapsulation is the process of bundling data and methods together within a class.
+– It hides the internal state of an object and provides controlled access through methods (getters and setters).
+– Encapsulation protects the integrity of the data and promotes modularity and reusability.
+
+3. Inheritance:
+– Inheritance allows classes to inherit properties and methods from other classes.
+– It establishes a “is-a” relationship, where a subclass inherits the characteristics of a superclass.
+– Inheritance promotes code reuse, abstraction, and hierarchical organization of classes.
+
+4. Polymorphism:
+– Polymorphism allows objects of different classes to be treated as objects of a common superclass.
+– It enables methods to be overridden in subclasses, providing different implementations based on the specific object type.
+– Polymorphism promotes code flexibility, extensibility, and the ability to work with objects generically.
+
+5. Abstraction:
+– Abstraction focuses on representing complex real-world entities as simplified models within classes.
+– It highlights essential characteristics while hiding unnecessary details.
+– Abstract classes and interfaces provide mechanisms for abstraction in OOP.
+
+6. Association, Composition, and Aggregation:
+– Association represents relationships between objects, where they can exist independently.
+– Composition is a strong relationship where a class contains other objects that cannot exist independently.
+– Aggregation is a weak relationship where a class contains other objects that can exist independently.
+
+OOP provides a structured and modular approach to software development. It promotes code organization, reusability, and maintainability. By modeling entities as objects and leveraging concepts like encapsulation, inheritance, polymorphism, and abstraction, OOP allows for the creation of scalable and flexible software systems.
